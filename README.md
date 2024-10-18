@@ -29,8 +29,8 @@ git clone https://github.com/ilvlsq/desktop-todo.git
 cd desktop-todo
 ```
 
+#### 2. Database Setup
 
-2. Database Setup
 2.2. Configure Environment Variables
 Create a .env file in the server directory and add the following variables:
 ```bash
