@@ -1,0 +1,91 @@
+.login-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.login-buttons button {
+  flex: 1;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+  border: 2px solid #45a049;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.login-buttons button:hover {
+  color: white;
+  background-color: #45a049;
+}
+
+@keyframes fadeInForTip {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.signup-tip {
+  margin-top: 1rem;
+  color: orange;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  opacity: 0;
+  animation: fadeInForTip 0.5s forwards;
+}
+
+.signup-tip button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signup-tip button:hover {
+  background-color: #1976d2;
+}
