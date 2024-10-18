@@ -28,6 +28,7 @@ Note: For this script, you need the environment variables.
 git clone https://github.com/ilvlsq/desktop-todo.git
 cd desktop-todo
 ```
+
 2. Database Setup
 
 2.2. Configure Environment Variables
